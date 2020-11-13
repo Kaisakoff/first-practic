@@ -1,0 +1,424 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto;
+    font-weight: 400;
+    color: #727272;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+    color: black;
+}
+
+h2 {
+    font-size: 32px;
+    color: black;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;     
+}
+
+header {
+    background-color: #EEEFF1;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.wrapper a {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    float: left;
+    width: 96px;
+    height: 60px;
+    padding: 66px 0 0 0;
+    text-align: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    float: right;
+    width: 55%;
+    padding: 79px 0 22px 0;
+}
+
+.wrapper li {
+    float: left;
+    margin-left: 42px;
+}
+
+.wrapper li a:hover {
+    float: left;
+    color: #34547A;
+    font-weight: 500;
+}
+
+.first-screen {
+    width: 1100px;
+    margin:140px auto 0;
+}
+
+.laptop {
+    float: left;
+    width: 357px;
+    height: 233.7px;
+    padding: 21px 0 0 85px; 
+}
+
+.text {
+    float: right;
+    width: 55%;
+    padding: 0 0 146px 77px;
+}
+
+.text p {
+    font-size: 16px;
+    padding: 60px 0 60px 0;
+}
+
+.text .button {
+    width: 225px;
+    height: 65px;
+    color: white;
+    background-color: #34547A;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.text .button:hover {
+    width: 225px;
+    height: 65px;
+    color: black;
+    background-color: #34547A;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.about-me {
+    width: 540px;
+    height: 147px;
+    margin: 119px auto 100px;
+    text-align: center;
+}
+
+.about-me .text {
+    width: 540px;
+    height: 67px;
+    padding-left: 0px;
+}
+
+.about-me p {
+    font-size: 16px; 
+}
+
+.numbers {
+    background-color: #34547A;
+    padding: 100px 0;
+}
+
+.numbers-container {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.numbers-item {
+    float: left;
+    width:141px;
+    height: 50px;
+    margin-right: 49px;
+}
+
+.numbers-item:last-of-type {
+    margin-right: 0px;
+}   
+
+.elements {
+    float: right;
+    color: white;
+}
+
+.element-1 {
+    padding: 0 0 5px 0;
+}
+
+.my-skills {
+    width: 1150px;
+    margin: 0 auto;
+} 
+
+.my-skills-container {
+    float: left;
+    padding: 204px 0 194px 0;
+
+}
+
+.skill-1 {
+    padding: 50px 0 0 0;
+}
+.skill-2,
+.skill-3 {
+    padding: 30px 0 0 0;
+}
+
+.skill-level {
+    margin: 20px 0 0 0;
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+}
+
+.skill-level-1,
+.skill-level-2,
+.skill-level-3 {
+    padding: 0 95px 0 0;
+    width: 350px;
+    height: 4px;
+    background-color: #34547A; 
+}
+
+.my-photo-container {
+    float: right;
+    padding: 101px 0 101px 150px;
+}
+
+.my-photo {
+    float: right;
+    width: 555px;    
+}
+
+.video {
+    background-color:#EEEFF1;
+    margin: 0 auto;
+}
+
+.video-container {
+    width: 1110px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.video-container h2 {
+    text-align: center;
+    padding: 0 353px 50px 353px;
+}
+
+.video-text {
+    padding: 0 285px 57px 285px;
+    text-align: center;
+}
+
+.video-player-container {
+    width: 1110px;
+    height: 600px;
+    position: relative;
+}
+
+.video-player {
+    width: 100%;
+    height: 100%;
+}
+
+.button-player {
+    position: absolute;
+    top: 250px;
+    left: 505px;
+}
+
+.button-player:hover {
+    position: absolute;
+    top: 250px;
+    left: 505px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+}
+
+.projects {
+    padding: 28px 0 0 0;
+    margin: 0 auto;
+    max-width: 1920px;  
+}
+
+.project-item:nth-child(1),
+.project-item:nth-child(3),
+.project-item:nth-child(6),
+.project-item:nth-child(8) {
+    float: left;
+    position: relative;
+    width: 480px;
+    height: 480px;
+    background: url("../img/project-1.jpg")
+}
+
+.project-item:nth-child(2),
+.project-item:nth-child(4),
+.project-item:nth-child(5),
+.project-item:nth-child(7) {
+    float: left;
+    position: relative;
+    width: 480px;
+    height: 480px;
+    background: url("../img/project-2.jpg")
+}
+
+.eye {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.eye img {
+    position: absolute;
+    top: 190px;
+    left: 190px;
+}
+
+.eye:hover {
+    opacity: 1;
+    background-color: rgba(52, 84, 122, 0.8);
+}
+
+.clients {
+    margin: 0 auto;
+}
+
+.clients-container {
+    margin: 0 auto;
+    width: 1110px;
+    padding: 72px 0 100px 0;
+}
+
+.clients-container img {
+    margin-right: 25px;
+}
+
+.clients-container img:last-child {
+    margin-right: 0px;
+}
+
+.form {
+    background-color: #EEEFF1;
+}
+
+.form-container {
+    margin: 0 auto;
+    width: 540px;
+    padding: 100px 0;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container p {
+    text-align: center;
+    padding: 50px 0 65px 0;
+}
+
+.name {
+    float: left;
+    width: 255px;
+    height: 50px;
+    border: none;
+    padding-left: 20px;
+    color: #727272;
+    font-size: 14px;  
+}
+
+.email {
+    float: right;
+    width: 255px;
+    height: 50px;
+    border: none;
+    padding-left: 20px;
+    color: #727272;
+    font-size: 14px;    
+}
+
+.message {
+    width: 540px;
+    height: 145px;
+    margin: 20px 0 0 0;
+    border: none;
+    padding: 17px 0 0 20px;
+    color: #727272;
+    font-size: 14px; 
+}
+
+.button-form {
+    width: 190px;
+    height: 55px;
+    margin: 50px 0 0 175px;; 
+    background-color: #34547A;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button-form:hover {
+    width: 190px;
+    height: 55px;
+    margin: 50px 0 0 175px;; 
+    background-color: #34547A;
+    color: black;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #34547A;
+} 
+
+.footer-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.copyright-container {
+    float: left;
+    padding: 50px 0 50px 0;
+    color: white;
+}
+
+.copyright-container h3 {
+    padding: 0 0 20px 0;
+}
+
+.social-container {
+    float: right;
+    padding: 65px 0 64px 0;
+}
+
+.social-container img {
+    float: right;
+    padding: 0 0 0 22px;
+}
